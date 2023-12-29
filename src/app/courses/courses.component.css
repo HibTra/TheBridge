@@ -1,0 +1,44 @@
+.discover{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 30px;
+}
+.discover h1{
+    font-size: 40px;
+}
+
+a{
+    color: white;
+    background-color: rgb(179, 59, 125);
+    text-decoration: none;
+    border-radius: 40px;
+    padding: 10px 20px;
+    text-align: center;
+    width: 150px;
+    font-weight: 900;    
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container img{
+    width: 400px;
+    height: 200px;
+}
+.course{
+    margin: 15px 0;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.course h3{
+    color: rgb(179, 59, 125);
+}
+
+.zoomIn{
+    transform: scale(1.07);
+    box-shadow: 0 0 8px rgb(179, 59, 125);
+}
